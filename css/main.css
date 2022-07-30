@@ -1,3 +1,7 @@
+body {
+    font-family: 'proxima-nova', sans-serif;
+}
+
 .navbar-toggler {
     background-image: url("../assets/img/bars.svg");
     background-repeat: no-repeat;
