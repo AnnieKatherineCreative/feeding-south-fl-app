@@ -1,0 +1,24 @@
+body {
+    font-family: 'proxima-nova', sans-serif;
+}
+
+.btn-gradient {
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
+    transition: 0.5s;
+    background-size: 200% auto;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, .15), 0 3px 6px rgba(0, 0, 0, .10);
+}
+
+.btn-gradient:hover {
+    background-position: right center;
+}
+
+a {
+    color: var(--bs-dark);
+    text-decoration: none;
+}
+
+a:hover {
+    color: var(--bs-orange);
+    text-decoration: underline;
+}
