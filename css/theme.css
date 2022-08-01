@@ -22,3 +22,11 @@ a:hover {
     color: var(--bs-orange);
     text-decoration: underline;
 }
+
+.form-control:focus {
+    color: #212529;
+    background-color: #fff;
+    border-color: hsl(27, 98%, 76%);
+    outline: 0;
+    box-shadow: 0 0 0 0.125rem hsla(27, 98%, 52%, 0.75);
+}
