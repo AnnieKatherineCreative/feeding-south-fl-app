@@ -25,26 +25,31 @@
 <!-- Navigation-->
 <div class="icons-menu bg-light">
     <div class="mg">
-        <img src="./assets/img/magnifying-glass.svg" alt="" class="img-fluid">
+        <a href="#" class="btn btn-sm w-100" role="button">
+            <img src="./assets/img/magnifying-glass.svg" alt="" class="img-fluid">
+        </a>
     </div>
-    <div class="menu">
-        <img src="./assets/img/bars.svg" alt="">
+    <div class="menu dropdown">
+        <a class="btn btn-sm w-100"
+           href="#"
+           role="button"
+           data-bs-toggle="dropdown"
+           aria-expanded="false">
+            <img class="img-fluid" src="./assets/img/bars.svg" alt="">
+        </a>
+        <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">About Us</a></li>
+            <li><a class="dropdown-item" href="./get-help.html">Get Help</a></li>
+            <li><a class="dropdown-item" href="./volunteer.html">Get Involved</a></li>
+            <li><a class="dropdown-item" href="#">Ways to Give</a></li>
+            <li><a class="dropdown-item" href="#">Programs</a></li>
+            <li><a class="dropdown-item" href="#">Agencies</a></li>
+            <li><a class="dropdown-item" href="#">Press Room</a></li>
+        </ul>
     </div>
 </div>
 <nav class="navbar navbar-light bg-light static-top">
     <div class="container">
-        <div class="d-flex">
-            <div>
-                <img class="img-fluid"
-                     src="./assets/img/magnifying-glass.svg"
-                     alt="magnifying glass">
-            </div>
-            <div>
-                <img class="img-fluid"
-                     src="./assets/img/bars.svg"
-                     alt="menu icon">
-            </div>
-        </div>
         <a href="./home.html">
             <img class="img-fluid" src="./assets/img/logo.png" alt="Feeding South Florida logo">
         </a>
