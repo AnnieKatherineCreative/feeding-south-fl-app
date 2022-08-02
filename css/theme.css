@@ -30,3 +30,7 @@ a:hover {
     outline: 0;
     box-shadow: 0 0 0 0.125rem hsla(27, 98%, 52%, 0.75);
 }
+
+.bg-green {
+    background-color: rgba(161, 196, 72, var(--bs-bg-opacity));
+}
