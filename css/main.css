@@ -18,3 +18,19 @@
 .menu {
     grid-area: menu;
 }
+
+.food-heart {
+    background: url("../assets/img/hero heart.jpg") no-repeat center center;
+}
+
+.get-help-hero {
+    background: url("../assets/img/Get Help.jpg") no-repeat center center;
+}
+
+.order-food-box-hero {
+    background: url("../assets/img/Get Help Option 2.jpg") no-repeat center center;
+}
+
+.volunteer-hero {
+    background: url("../assets/img/Volunteer use.jpg") no-repeat center center;
+}
