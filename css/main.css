@@ -28,9 +28,17 @@
 }
 
 .order-food-box-hero {
-    background: url("../assets/img/Get Help Option 2.jpg") no-repeat center center;
+    background: url("../assets/img/Volunteer use.jpg") no-repeat center center;
 }
 
 .volunteer-hero {
-    background: url("../assets/img/Volunteer use.jpg") no-repeat center center;
+    background: url("../assets/img/tomatoes in hands.jpg") no-repeat center center;
+}
+
+.track-food-box-hero {
+    background: url("../assets/img/veg with white.jpg") no-repeat center center;
+}
+
+.food-box-info-hero {
+    background: url("../assets/img/Get Help Option 2.jpg") no-repeat center center;
 }
