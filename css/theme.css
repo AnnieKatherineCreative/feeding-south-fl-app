@@ -31,6 +31,12 @@ a:hover {
     box-shadow: 0 0 0 0.125rem hsla(27, 98%, 52%, 0.75);
 }
 
+.form-select:focus {
+    border-color: hsl(27, 98%, 76%);
+    outline: 0;
+    box-shadow: 0 0 0 0.125rem hsla(27, 98%, 52%, 0.75);
+}
+
 .bg-green {
     background-color: rgba(161, 196, 72, var(--bs-bg-opacity));
 }

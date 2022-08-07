@@ -74,8 +74,7 @@
         <div class="row g-0">
             <div class="col-lg-6 order-lg-1 my-auto showcase-text">
                 <p class="lead">
-                    Are you in need of food but aren't able to come shop at our Food Pantry? Order a Food Box below and
-                    one of our friendly drivers will deliver it to you.
+                    Fill out the quick info below and we can get your Food Box to you today!
                 </p>
                 <div class="mb-3">
                     <label for="full_name" class="form-label">Full name</label>
@@ -97,6 +96,19 @@
                 <div class="mb-3">
                     <label for="phone_number" class="form-label">Phone Number</label>
                     <input type="tel" class="form-control" id="phone_number" placeholder="555-555-5555">
+                </div>
+                <div class="mb-3">
+                    <label for="people_to_feed" class="form-label">Number of people to feed</label>
+                    <input type="text" inputmode="number" class="form-control" id="people_to_feed" placeholder="5">
+                </div>
+                <div class="mb-3">
+                    <label for="delivery_time" class="form-label">Choose a delivery time slot</label>
+                    <select id="delivery_time" class="form-select" aria-label="Choose a delivery time slot">
+                        <option selected>-- Choose one --</option>
+                        <option value="1">9AM - 12PM</option>
+                        <option value="2">12PM - 3PM</option>
+                        <option value="3">3PM - 6PM</option>
+                    </select>
                 </div>
                 <div class="mb-3">
                     <label for="diet" class="form-label">Dietary Restrictions</label>
