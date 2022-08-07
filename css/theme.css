@@ -34,3 +34,7 @@ a:hover {
 .bg-green {
     background-color: rgba(161, 196, 72, var(--bs-bg-opacity));
 }
+
+.bg-yellow {
+    background-color: var(--bs-yellow);
+}
